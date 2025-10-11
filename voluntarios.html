@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torne-se um Voluntário - Mãos pelo Mundo</title>
+    
+    <style>
+        /* Estilos básicos para o menu ficar em linha */
+        .menu-list {
+            list-style: none; 
+            padding: 0; 
+            display: flex; 
+            gap: 15px; 
+            font-size: 20px;
+        }
+        .menu-list a {
+            text-decoration: none; 
+            color: inherit; 
+        }
+
+        /* Estilos básicos para alinhamento de formulário */
+        fieldset {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        fieldset h3 { /* Ajuste para o h3 dentro do fieldset */
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-size: 1.5em;
+        }
+        form label {
+            display: inline-block; /* Faz o label ocupar sua própria largura */
+            width: 140px; /* Largura fixa para alinhar os campos */
+            text-align: right;
+            margin-right: 10px;
+            vertical-align: top; /* Alinha o label com o topo do campo */
+            margin-bottom: 8px; /* Espaço entre as linhas do formulário */
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form input[type="tel"], /* Para o CPF */
+        form textarea {
+            width: calc(100% - 160px); /* Ocupa o restante da largura, ajustado para label */
+            padding: 8px;
+            margin-bottom: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Inclui padding e borda na largura total */
+        }
+        form input[type="checkbox"] + label { /* Estilo para labels de checkbox */
+            width: auto; /* Tira a largura fixa */
+            text-align: left;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+        form textarea {
+            resize: vertical; /* Permite redimensionar verticalmente */
+            min-height: 100px; /* Altura mínima para a área de texto */
+        }
+        form input[type="submit"] {
+            margin-left: 150px; /* Alinha o botão com os campos */
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        video {
+            max-width: 100%; /* Garante que o vídeo seja responsivo */
+            height: auto;
+            display: block;
+            margin: 20px auto; /* Centraliza o vídeo */
+        }
+        audio {
+            width: 100%; /* Ocupa a largura total */
+            margin-bottom: 15px;
+            display: block; /* Para ter sua própria linha */
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 40px 0;
+        }
+        /* Ajustes para elementos de texto */
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-top: 30px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" style="text-decoration: none; color: inherit;">
+            <picture>
+                <source media="(max-width: 600px)" srcset="./assets/img3_small.jpg" type="image/jpeg">
+                <source media="(max-width: 900px)" srcset="./assets/img3_medium.jpg" type="image/jpeg">
+                <img src="/assets/img3.jpg" alt="Logo da ONG Mãos pelo Mundo" style="vertical-align: middle; margin-right: 10px;" loading="lazy">
+            </picture>
+            <h1 style="display: inline;">Mãos pelo Mundo</h1>
+        </a>
+    </header>
+
+    <nav style="margin-top: 10px;">
+        <ul style="list-style: none; padding: 0; display: flex; gap: 10px;">
+                <li style="font-size: 20px;">● <a href="index.html">Início</a> </li>
+                <li style="font-size: 20px;">● <a href="projetos.html">Projetos</a> </li> 
+                <li style="font-size: 20px;">● <a href="voluntariado.html">Voluntários</a> </li>
+                <li style="font-size: 20px;">● <a href="doacoes.html">Doações</a> </li>
+                <li style="font-size: 20px;">● <a href="contato.html">Contato</a> </li>
+                <li style="font-size: 20px;">● <a href="blog.html">Blog</a> ●</li>
+            </ul>
+    </nav>
+
+    <main style="max-width: 960px; margin: 20px auto; padding: 0 20px;">
+        <section>
+            <h1>Voluntariado</h1>
+
+            <p><label>Participe de ações e projetos sociais conosco e torne-se um membro.</label></p>
+            
+            <h2>Vídeo Institucional</h2>
+            <video src="/assets/vid2.mp4" controls loading="lazy" width="1890">Vídeo sobre apoiadores</video> 
+            <hr>
+            
+            <h1>Nossos Voluntários</h1>
+            <video src="/assets/vid4.mp4" controls loading="lazy" width="1890">Vídeo sobre apoiadores</video>
+            <hr>
+            
+            <h1>Seja a mudança</h1>
+            <video src="/assets/vid1.mp4" controls loading="lazy" width="1890">Vídeo motivacional</video>
+            <hr>
+
+            <h2>Depoimento de Voluntários</h2>
+
+            <p>Vitor Corleone:</p>
+            <audio src="/assets/aud1.mp3" controls></audio> 
+            
+            <p>Rafael Lima:</p>
+            <audio src="/assets/aud2.mp3" controls></audio> 
+
+            <p>Ana Paula, coordenadora de campo</p>
+            <audio src="/assets/aud3.mp3" controls></audio> 
+            
+            <fieldset>
+                <h3>Junte-se a nós e venha fazer a diferença!!!</h3>
+                <form action="cadastro.php" autocomplete="off">
+                   <label for="inome">Nome completo:</label>
+                   <input type="text" name="nome" id="inome"><br>
+                   
+                   <label for="Email">Email:</label>
+                   <input type="email" name="Email" id="Email"><br>
+                   
+                   <label for="CPF">CPF:</label>
+                   <input type="tel" name="CPF" id="CPF" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" placeholder="000.000.000-00" maxlength="14"><br>
+
+                   <label for="Experiencia">Experiência:</label>
+                   <textarea name="Experiencia" id="Experiencia" rows="4" cols="50"></textarea><br>
+                   
+                   <label for="Habilidades">Habilidades:</label>
+                   <textarea name="Habilidades" id="Habilidades" rows="4" cols="50"></textarea><br>
+                   
+                   <p>Disponibilidade:</p>
+                   <div>
+                       <input type="checkbox" value="Domingo" id="domingo" name="disponibilidade[]">
+                       <label for="domingo">Domingo</label>
+
+                       <input type="checkbox" value="Segunda" id="segunda" name="disponibilidade[]">
+                       <label for="segunda">Segunda</label>
+
+                       <input type="checkbox" value="Terça" id="terca" name="disponibilidade[]">
+                       <label for="terca">Terça</label>
+
+                       <input type="checkbox" value="Quarta" id="quarta" name="disponibilidade[]">
+                       <label for="quarta">Quarta</label>
+
+                       <input type="checkbox" value="Quinta" id="quinta" name="disponibilidade[]">
+                       <label for="quinta">Quinta</label>
+
+                       <input type="checkbox" value="Sexta" id="sexta" name="disponibilidade[]">
+                       <label for="sexta">Sexta</label>
+
+                       <input type="checkbox" value="Sabado" id="sabado" name="disponibilidade[]">
+                       <label for="sabado">Sábado</label>
+                   </div>
+                   <br>
+                   <input type="submit" value="Enviar">
+                </form>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>
