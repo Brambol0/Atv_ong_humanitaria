@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos Sociais - Mãos pelo Mundo</title>
+    
+    <style>
+        
+        .menu-list {
+            list-style: none; 
+            padding: 0; 
+            display: flex; 
+            gap: 15px;
+            font-size: 20px;
+        }
+        .menu-list a {
+            text-decoration: none; 
+            color: inherit;
+        }
+        main { 
+            max-width: 960px; 
+            margin: 20px auto; 
+            padding: 0 20px; 
+        }
+        h1, h2 { /* Estilos para títulos */
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-top: 30px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+        .projeto-item {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee; /* Linha de separação */
+        }
+        .projeto-item:last-child {
+            border-bottom: none; /* Remove a linha do último item */
+        }
+        .projeto-item img {
+            max-width: 100%; /* Garante que a imagem seja responsiva */
+            height: auto;
+            margin-top: 20px; /* Espaço acima da imagem */
+            display: block; /* Para a margem auto funcionar */
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 8px; /* Borda arredondada */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="index.html" style="text-decoration: none; color: inherit;">
+            <picture>
+                <source media="(max-width: 600px)" srcset="./assets/img3_small.jpg" type="image/jpeg">
+                <source media="(max-width: 900px)" srcset="./assets/img3_medium.jpg" type="image/jpeg">
+                <img src="/assets/img3.jpg" alt="Logo da ONG Mãos pelo Mundo" style="vertical-align: middle; margin-right: 10px;" loading="lazy">
+            </picture>
+            <h1 style="display: inline;">Mãos pelo Mundo</h1>
+        </a>
+    </header>
+
+    <nav style="margin-top: 10px;">
+        <ul style="list-style: none; padding: 0; display: flex; gap: 10px;">
+                <li style="font-size: 20px;">● <a href="index.html">Início</a> </li>
+                <li style="font-size: 20px;">● <a href="projetos.html">Projetos</a> </li> 
+                <li style="font-size: 20px;">● <a href="voluntariado.html">Voluntários</a> </li>
+                <li style="font-size: 20px;">● <a href="doacoes.html">Doações</a> </li>
+                <li style="font-size: 20px;">● <a href="contato.html">Contato</a> </li>
+                <li style="font-size: 20px;">● <a href="blog.html">Blog</a> ●</li>
+            </ul>
+    </nav>
+    
+    <main>
+        <h1>Projetos Sociais</h1>
+
+        <section>
+            <div class="projeto-item">
+                <h2>🌱 1. Projeto Raízes da Esperança</h2>
+                <p>Objetivo: Reflorestar áreas degradadas e criar empregos sustentáveis em comunidades locais.</p>
+                <p>Ações: plantio de árvores nativas, capacitação de agricultores e incentivo à agrofloresta.</p>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./assets/img4_small.jpg" type="image/jpeg">
+                    <source media="(max-width: 900px)" srcset="./assets/img4_medium.jpg" type="image/jpeg">
+                    <img src="/assets/img4 .jpg" alt="Floresta replantada por voluntários." loading="lazy">
+                </picture>
+            </div>
+            
+            <hr> 
+            
+            <div class="projeto-item">
+                <h2>💧 2. Água para Todos</h2>
+                <p>Objetivo: Levar acesso à água potável e saneamento básico para regiões rurais e vulneráveis.</p>
+                <p>Ações: instalação de poços artesianos, filtros comunitários e oficinas de higiene e saúde.</p>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./assets/img5_small.jpg" type="image/jpeg">
+                    <source media="(max-width: 900px)" srcset="./assets/img5_medium.jpg" type="image/jpeg">
+                    <img src="/assets/img5.jpg" alt="Crianças em projeto de saneamento básico." loading="lazy">
+                </picture>
+            </div>
+            
+            <hr>
+
+            <div class="projeto-item">
+                <h2>🩺 3. Saúde Sem Fronteiras</h2>
+                <p>Objetivo: Oferecer atendimento médico e psicológico gratuito em regiões de difícil acesso.</p>
+                <p>Ações: clínicas móveis, doação de medicamentos e capacitação de agentes comunitários de saúde.</p>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./assets/img7_small.jpg" type="image/jpeg">
+                    <source media="(max-width: 900px)" srcset="./assets/img7_medium.jpg" type="image/jpeg">
+                    <img src="/assets/img7.jpg" alt="Profissionais de saúde atendendo em comunidade." loading="lazy">
+                </picture>
+            </div>
+
+            <hr>
+
+            <div class="projeto-item">
+                <h2>📚 4. EducaMundo</h2>
+                <p>Objetivo: Promover educação inclusiva e ambiental para crianças e jovens.</p>
+                <p>Ações: oficinas, bolsas de estudo e programas de intercâmbio social.</p>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./assets/img8_small.jpg" type="image/jpeg">
+                    <source media="(max-width: 900px)" srcset="./assets/img8_medium.jpg" type="image/jpeg">
+                    <img src="/assets/img8.jpg" alt="Crianças aprendendo em sala de aula." loading="lazy">
+                </picture>
+            </div>
+
+            <hr>
+
+            <div class="projeto-item">
+                <h2>🌍 5. Missão Terra Viva</h2>
+                <p>Objetivo: Promover consciência planetária e ações conjuntas em prol da sustentabilidade global.</p>
+                <p>Ações: eventos anuais, mutirões ambientais e projetos intercontinentais em parceria com escolas e empresas.</p>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="./assets/img9_small.jpg" type="image/jpeg">
+                    <source media="(max-width: 900px)" srcset="./assets/img9_medium.jpg" type="image/jpeg">
+                    <img src="/assets/img9.jpg" alt="Voluntários participando de ação de reciclagem." loading="lazy">
+                </picture>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
