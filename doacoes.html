@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Mãos pelo Mundo</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none; color: inherit;">
+            <h1>
+                <img src="/assets/img3.jpg" alt="Logo da ONG Mãos pelo Mundo" style="vertical-align: middle; margin-right: 10px;">
+                Mãos pelo Mundo
+            </h1>
+        </a>
+        <h3>Ong de ajuda humanitária sem fins lucrativos.</h3>
+
+        <nav>
+          <ul style="list-style: none; padding: 0; display: flex; gap: 10px;">
+                <li style="font-size: 20px;">● <a href="index.html">Início</a> </li>
+                <li style="font-size: 20px;">● <a href="projetos.html">Projetos</a> </li> 
+                <li style="font-size: 20px;">● <a href="voluntariado.html">Voluntários</a> </li>
+                <li style="font-size: 20px;">● <a href="doacoes.html">Doações</a> </li>
+                <li style="font-size: 20px;">● <a href="contato.html">Contato</a> </li>
+                <li style="font-size: 20px;">● <a href="blog.html">Blog</a> ●</li>
+            </ul>
+    </header>
+    
+    <main>
+
+        <section id="chamada-principal">
+            <h1>Doações</h1>
+            
+            <h2>Sua Contribuição é a Força Propulsora da Mãos pelo Mundo!</h2>
+            <p><strong>Mais do que um apoio, sua doação é um investimento direto na construção de um futuro mais justo e sustentável.</strong> Ao contribuir com a Mãos pelo Mundo, você se torna parte de uma missão vital e dupla: o combate à desigualdade social e a urgente preservação do meio ambiente. Cada real, cada item e cada hora de voluntariado que recebemos tem um impacto concreto. Seu apoio não apenas transforma vidas nas comunidades carentes, garantindo acesso a alimentos, educação e saúde básica, como também protege o planeta ao financiar o reflorestamento de áreas degradadas, a limpeza de rios e projetos de educação ecológica. Seja por meio de uma doação financeira (única ou mensal) ou pela entrega de bens essenciais, sua generosidade é o combustível que nos permite manter ativos e crescer nossos projetos de impacto social e ambiental. Juntos, garantimos que as mãos que estendemos hoje alcancem um amanhã melhor para todos.</p>
+        </section>
+
+        <hr>
+
+        <section id="tabela-impacto">
+            <h2>Transparência: Onde Sua Doação é Investida</h2>
+            <p>Sua contribuição é dividida entre nossos dois pilares para maximizar o impacto:</p>
+
+            <h3 style="margin-top: 30px;">Distribuição de Doação Mensal</h3>
+            <p>Se você se torna um doador recorrente, sua contribuição é estrategicamente dividida:</p>
+            <ul style="list-style-type: disc;">
+                <li><strong>60%</strong> para as Ações Comunitárias (Alimentação, Educação e Saúde).</li>
+                <li><strong>40%</strong> para a Preservação Ambiental (Reflorestamento, Monitoramento e Educação Ecológica).</li>
+            </ul>
+            <h2 style="margin-top: 30px;">Como doar</h2>
+            <p>Doar para a Mãos pelo Mundo é simples e seguro. Oferecemos diversas formas de contribuição para facilitar sua participação:</p>
+            <ul>
+                <li><strong>Doação Financeira:</strong> Você pode fazer uma doação única ou optar por contribuições mensais através do nosso site.</li>
+                <li><strong>Doação de Bens:</strong> Aceitamos roupas, alimentos não perecíveis, materiais escolares e equipamentos médicos. Consulte os pontos de coleta perto de você.</li>
+                <li><strong>Doação de Tempo:</strong> Além de recursos materiais, seu tempo como voluntário é uma forma valiosa de doação. Participe de nossas ações e eventos.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="formulario-pagamento">
+            <h2>Contribuição com Cartão de Crédito</h2>
+            <p>Escolha o valor e a modalidade de doação abaixo. Todas as transações são seguras e processadas por nosso parceiro de pagamento.</p>
+
+            <form action="https://br.signifyd.com/blog/gateway-x-processador-de-pagamentos-diferencas/" method="POST">
+                
+                <fieldset>
+                    <legend>Tipo de Doação</legend>
+                    
+                    <label>
+                        <input type="radio" name="tipo_doacao" value="unica" id="doacao_unica" checked>
+                        Doação Única (Parcelamento em até 12x)
+                    </label>
+                    <br><br>
+                    <label>
+                        <input type="radio" name="tipo_doacao" value="mensal" id="doacao_mensal">
+                        Doação Mensal (Recorrência Automática)
+                    </label>
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Detalhes da Contribuição</legend>
+                    <label for="valor">Valor da Doação (R$):</label>
+                    <input type="number" id="valor" name="valor" min="10" step="0.01" required placeholder="Ex: 50.00">
+                    
+                    <br><br>
+
+                    <div id="campo_parcelas">
+                        <label for="parcelas">Número de Parcelas (Máx. 12x):</label>
+                        <select id="parcelas" name="parcelas" required>
+                            <option value="1" selected>1x (À vista)</option>
+                            <option value="2">2x</option>
+                            <option value="3">3x</option>
+                            <option value="4">4x</option>
+                            <option value="5">5x</option>
+                            <option value="6">6x</option>
+                            <option value="7">7x</option>
+                            <option value="8">8x</option>
+                            <option value="9">9x</option>
+                            <option value="10">10x</option>
+                            <option value="11">11x</option>
+                            <option value="12">12x</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <br>
+                
+                <fieldset>
+                    <legend>Dados do Cartão de Crédito</legend>
+
+                    <label for="nome_cartao">Nome Completo no Cartão:</label>
+                    <input type="text" id="nome_cartao" name="nome_cartao" required>
+                    
+                    <br><br>
+
+                    <label for="numero_cartao">Número do Cartão:</label>
+                    <input type="text" id="numero_cartao" name="numero_cartao" inputmode="numeric" pattern="[0-9\s]{13,19}" required placeholder="XXXX XXXX XXXX XXXX">
+
+                    <br><br>
+
+                    <label for="validade_mes">Validade (Mês/Ano):</label>
+                    <input type="number" id="validade_mes" name="validade_mes" min="1" max="12" required placeholder="MM" style="width: 50px;">
+                    /
+                    <input type="number" id="validade_ano" name="validade_ano" min="2025" max="2035" required placeholder="AAAA" style="width: 70px;">
+
+                    <br><br>
+
+                    <label for="cvv">CVV (Código de Segurança):</label>
+                    <input type="text" id="cvv" name="cvv" inputmode="numeric" pattern="\d{3,4}" required placeholder="Ex: 123" style="width: 60px;">
+                </fieldset>
+                
+                <br>
+
+                <button type="submit">Finalizar Doação</button>
+                
+            </form>
+        </section>
+
+
+        <section id="agradecimento">
+            <h2>Agradecimento</h2>
+            <p>Agradecemos profundamente a cada pessoa que escolhe apoiar nossa causa. Juntos, podemos fazer a diferença e construir um mundo mais justo e sustentável. Sua generosidade é a força que nos impulsiona a continuar nossa missão.</p>
+
+            <h2>Entre em contato</h2>
+            <p>Se você tiver dúvidas sobre como doar ou quiser mais informações sobre nossos projetos, não hesite em entrar em contato conosco através das nossas redes sociais: <a href="https://Instagram.com" target="_blank" re="external">Instagram,</a>  <a href="https://facebook.com" target="_blank" re="external">Facebook,</a> <a href="https://Twitter.com" target="_blank" re="external">Twitter,</a> <a href="https://linkedin.com" target="_blank" re="external">Linkedin.</a></p>
+
+            
+        </section>
+
+    </main>
+    
+</body>
+</html>
