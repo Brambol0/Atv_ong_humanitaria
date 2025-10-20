@@ -1,0 +1,117 @@
+<style>
+      .menu-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 15px;
+        font-size: 20px;
+      }
+
+      .menu-list a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      fieldset {
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+
+      fieldset h3 {
+        margin-top: 0;
+        margin-bottom: 15px;
+        color: #2c3e50;
+        font-size: 1.5em;
+      }
+
+      form label {
+        display: inline-block;
+        width: 140px;
+        text-align: right;
+        margin-right: 10px;
+        vertical-align: top;
+        margin-bottom: 8px;
+      }
+
+      form input[type="text"],
+      form input[type="email"],
+      form input[type="tel"],
+      form textarea {
+        width: calc(100% - 160px);
+        padding: 8px;
+        margin-bottom: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      form input[type="checkbox"] + label {
+        width: auto;
+        text-align: left;
+        margin-right: 15px;
+        vertical-align: middle;
+      }
+
+      form textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+
+      form input[type="submit"] {
+        margin-left: 150px;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      form input[type="submit"]:hover {
+        background-color: #218838;
+      }
+
+      video {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        position: relative;
+        z-index: 1;
+      }
+
+      audio {
+        width: 100%;
+        margin-bottom: 15px;
+        display: block;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid #eee;
+        margin: 40px 0;
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 10px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+      }
+
+      h2 {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin-bottom: 1em;
+      }
+</style>
