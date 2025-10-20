@@ -1,18 +1,35 @@
-.tags {
-  margin-top: 8px;
-}
+ /* ================= Tags e Badges ================= */
+      .tags {
+        margin-top: 8px;
+        text-align: center;
+      }
 
-.tag {
-  display: inline-block;
-  background-color: #e0f7fa;
-  color: #00796b;
-  padding: 5px 10px;
-  border-radius: 12px;
-  font-size: 0.9em;
-  margin-right: 5px;
-  transition: background 0.3s;
-}
+      .tag {
+        display: inline-block;
+        background-color: #e0f7fa;
+        color: #00796b;
+        padding: 6px 12px;
+        border-radius: 12px;
+        font-size: 0.9em;
+        margin-right: 6px;
+        margin-bottom: 6px;
+        transition: background 0.3s;
+      }
 
-.tag:hover {
-  background-color: #b2dfdb;
-}
+      .tag:hover {
+        background-color: #b2dfdb;
+      }
+
+      .badge {
+        background-color: #2ecc71;
+        color: white;
+        font-size: 0.8em;
+        padding: 4px 8px;
+        border-radius: 12px;
+        margin-left: 10px;
+        vertical-align: middle;
+      }
+
+      .badge.active {
+        background-color: #f39c12;
+      }
