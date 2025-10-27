@@ -92,3 +92,5 @@ O projeto atendeu aos objetivos propostos, entregando um site completo, moderno 
 Visual coerente com a identidade da ONG
 
 O resultado final é uma plataforma institucional sólida, eficiente e visualmente agradável, promovendo a causa humanitária com profissionalismo e empatia.
+
+// Pequena alteração para teste de Pull Request
