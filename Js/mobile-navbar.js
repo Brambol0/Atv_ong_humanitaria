@@ -43,5 +43,4 @@ const mobileNavbar = new MobileNavbar(
 );
 mobileNavbar.init();
 
-// Pequena alteração para teste de Pull Request
 
